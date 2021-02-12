@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Tucson {
+  width: 100%;
+  height: 992px;
+
+  position: relative;
+}
+
+.Tucson__backgroungImage {
+  width: 100%;
+  height: 855px;
+
+  background-image: url(../img/abstrakcii-sinij-volny.png);
+  background-color: #091830;
+
+  padding: 41px 120px;
+}
+
+/* HEADER */
+.Tucson__header {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 64px;
+
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Tucson__header__logo {
+  width: 220px;
+  height: 64px;
+
+  background-image: url(../img/Logo.png);
+}
+
+.Tucson__header__adress {
+  width: 327px;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Tucson__header__adress__itemSvg {
+  width: 24px;
+  height: 30px;
+
+  background-image: url(../icons/Vector.svg);
+}
+
+.Tucson__header__adress__itemText {
+  width: 285px;
+  height: 38px;
+}
+
+.Tucson__header__links {
+  width: 460px;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Tucson__header__links__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.Tucson__header__phonenumber {
+  width: 215px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.Tucson__header__phonenumber__phone {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Tucson__header__phonenumber__text a {
+  color: #fb620b;
+}
+
+/* CONTENT TUCSON*/
+
+.Tucson__request {
+  width: 720px;
+  height: 430px;
+
+
+  margin-top: 170px;
+  margin-left: 240px;
+
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.Tucson__request__itemH1 {
+  width: 722px;
+  height: 220px;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 76px;
+}
+
+.Tucson__request__itemText {
+  width: 504px;
+  height: 60px;
+  font-size: 24px;
+  padding-bottom: 147px;
+
+}
+
+.Tucson__request__itemButtom {
+  width: 265px;
+  height: 63px;
+  background-color: #fb620b;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text {
+
+  padding: 21px 44px ;
+}
+
+.Tucson__Tucson {
+  width: 1115px;
+  height: 610px;
+
+  background-image: url(../img/Hyundai_Tucson_White.png);
+  background-repeat: no-repeat;
+  position: absolute;
+
+  margin-left: 625px;
+  margin-top: -290px;
+}
+
+
+
+.White  {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+}
+
+/* CONTENT SOLARIS */
+
+
+.Solaris  {
+  width: 100%;
+  height: 718px;
+
+  font-family: "Montserrat", sans-serif;
+
+  position: relative;
+}
+
+.Solaris__backgroungImage {
+  width: 100%;
+  height:620px;
+
+  background-image: url(../img/phonk.png);
+  background-color: #091830;
+
+  padding: 130px 320px;
+}
+
+.Solaris__itemH1  {
+  width: 563px;
+  height: 177px;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+}
+
+.Solaris_Solaris  {
+  width: 633px;
+  height: 335px;
+
+  background-image: url(../img/Front-Exterio.png);
+  background-repeat: no-repeat;
+  position: absolute;
+
+  margin-left: 320px;
+  margin-top: -235px;
+}
+
+.Solaris__form  {
+  position: absolute;
+
+  width: 452px;
+  height: 581px;
+
+  box-shadow: 0 0 20px #091830;
+  border-radius: 20px;
+  background-color: #fff;
+
+  margin-left: 1120px;
+  margin-top: -500px;
+}
+
+.Solaris__form__h3 {
+  color: #091830;
+  font-weight: 700;
+  font-size: 24px;
+
+  padding-left: 85px;
+}
+
+
+.Solaris__request__itemButtom {
+  width: 265px;
+  height: 63px;
+  background-color: #fb620b;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+
+  margin-left: 93px;
+}
+
+.Solaris__form__text  {
+color: #535353;
+padding-left: 55px;
+font-size: 14px;
+font-weight: 400;
+}
+/* MAP */
+
+.Map  {
+  height: 725px;
+  width: 100%;
+
+}
+
+.Map__map {
+  padding-top: 40px;
+}
+
+.Map__contacts  {
+  position: absolute;
+
+  width: 385px;
+  height: 404px;
+  background-color: #fff;
+
+  box-shadow: 0 0 20px #091830;
+  border-radius: 10px;
+
+  margin-left: 1180px;
+  margin-top: -720px;
+
+  padding-left: 37px;
+}
+
+
+.Map__contacts__itemH3  {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Map__contacts__itemH3:first-child{
+  padding-top: 45px;
+}
+
+.Map__contacts__itemH3:last-child{
+  padding-top: 12px;
+}
+
+.Map__contacts__item  {
+  color: #FB620B;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+
+  padding-top: 40px;
+}
+
+.Map__contacts__text  {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 12px;
+
+}
+
+/* FOOTER */
+
+.Footer {
+  width: 100%;
+  height: 126px;
+
+  background-color: #091830;
+
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+
+  position: relative;
+
+  padding: 24px 240px;
+}
+
+.Footer__footer {
+  height: 64px;
+
+  display: flex;
+  justify-content:space-between;
+}
