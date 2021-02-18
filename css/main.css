@@ -13,13 +13,12 @@
 }
 
 .Tucson__backgroungImage {
-  width: 100%;
-  height: 855px;
-
-  background-image: url(../img/abstrakcii-sinij-volny.png);
+  background-position: center;
+  background: url(../img/abstrakcii-sinij-volny.png);
   background-color: #091830;
-
   padding: 41px 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* HEADER */
@@ -49,6 +48,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  cursor: pointer;
 }
 
 .Tucson__header__adress__itemSvg {
@@ -61,6 +62,11 @@
 .Tucson__header__adress__itemText {
   width: 285px;
   height: 38px;
+}
+
+.Tucson__header__adress-link  {
+  text-decoration: none;
+  color: white;
 }
 
 .Tucson__header__links {
@@ -90,10 +96,50 @@
 .Tucson__header__phonenumber__phone {
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .Tucson__header__phonenumber__text a {
   color: #fb620b;
+}
+
+
+.Tucson__header-mobile  {
+  display: none;
+  width: 335px;
+  height: 50px;
+
+}
+
+.Tucson__header-mobile__menu  {
+  height: 15px;
+  width: 32px;
+
+  background-position: center;
+  background-image: url(../icons/MobileMenu.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Tucson__header-mobile__logo  {
+  height: 45px;
+  width: 153px;
+
+  background-position: center;
+  background-image: url(../img/Logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Tucson__header-mobile__phone {
+  height: 22px;
+  width: 32px;
+
+  background-position: center;
+  background-image: url(../icons/Phone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* CONTENT TUCSON*/
@@ -108,6 +154,8 @@
 
   font-family: "Montserrat", sans-serif;
   color: white;
+
+  cursor: default;
 }
 
 .Tucson__request__itemH1 {
@@ -127,18 +175,19 @@
 
 }
 
+
 .Tucson__request__itemButtom {
-  width: 265px;
-  height: 63px;
   background-color: #fb620b;
   color: white;
   font-weight: bold;
   font-size: 18px;
+  padding: 25px 45px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.text {
-
-  padding: 21px 44px ;
+.form.Tucson__request__itemButtom  {
+  margin-left: 90px;
 }
 
 .Tucson__Tucson {

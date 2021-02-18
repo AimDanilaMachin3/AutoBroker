@@ -1,0 +1,73 @@
+@media (max-width: 378px) {
+  .Tucson__header-mobile {
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 20px;
+    padding-top: 25px;
+
+  }
+
+  .Tucson__backgroungImage {
+    padding: 0;
+    height: 670px;
+  }
+
+  .Tucson__request {
+
+
+    width: 285px;
+    height: 280px;
+    padding: 0;
+    margin: 0;
+
+    margin-top: 90px;
+    margin-left: 40px;
+  }
+
+  .Tucson__request__itemH1 {
+    font-size: 30px;
+
+    width: 280px;
+    height: 180px;
+
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .Tucson__request__itemText {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+
+    width: 280px;
+    height: 45px;
+  }
+
+  .Tucson__request__itemButtom {
+    margin-top: 40px;
+  }
+
+  .Tucson__header {
+    display: none;
+  }
+
+  .Tucson__Tucson {
+
+    width: 355px;
+    height: 250px;
+
+    background-size: 450px 100%;
+
+    overflow : auto;
+
+    margin-left: 20px;
+    margin-top: 120px;
+
+
+
+  }
+}
